@@ -2,6 +2,10 @@ This is a ros package for converting latitude, longitude and altitude coordinate
 # Requirement
 GeographicLib (test on version 1.34)
 https://geographiclib.sourceforge.io/
+# Link Geographic lib with cmake
+```
+sudo ln -s /usr/share/cmake/geographiclib/FindGeographicLib.cmake /usr/share/cmake-3.10/Modules/
+```
 
 # Download and build
 ```
